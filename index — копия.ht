@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+        <html lang="ru">    
+<head>
+
+    <meta charset="UTF-8">
+
+<title>Find Things To Do, Attractions, Best Tours in Azerbaijan and Georgia | Alison</title>
+
+<meta name="keywords" content="travel, azerbaijan, tours, hotel, hotels, trip, trips, georgia, cheap tours, transfer, transfers, travel to azerbaijan, travel to georgia, travel to ukraine, travel to baku, gabala, qabala, quba, guba palace, qafqaz, discount tour, best price, low price, visa azerbaijan, online visa, asan visa, alison travel, guides, food, best price, marxal, sheki, maiden tower">
+<meta name="description" content="Find, compare, and book sightseeing tours, attractions, excursions, things to do and fun activities from around the world. Save money and book directly from local suppliers."/>
+
+<meta name="author" content="mike"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/media-queries.css">
+<!-- assets/css/main.css?v=6.8 -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="assets/plugins/autocomplete/jquery.autocomplete.min.js"></script>
+    <script>
+        window.currentLanguage = "en";
+
+        var hotels = [{"id":"2","name_az":"Absheron Marriot Hotel ","name_en":"Absheron Marriot Hotel ","name_ar":"Absheron Marriot Hotel ","name_ru":"Absheron Marriot Hotel ","description_az":"<p>Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui. voluptatem sequi nesciunt. Neque porro quisqua. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam<\/p>\n\n<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit<\/p>\n","description_en":"","description_ar":"","description_ru":"<p>Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui. voluptatem sequi nesciunt. Neque porro quisqua. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam<\/p>\n\n<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. <strong>RU<\/strong><\/p>\n","price_from":"100","stars_count":"5","img_gallery":"[\"\/assets\/images\/hotel-big-2.jpg\",\"\/assets\/images\/hotel-big-3.jpg\",\"\/assets\/images\/hotel-big-4.jpg\",\"\/assets\/images\/hotel-big-5.jpg\",\"\/assets\/images\/hotel-big-6.jpg\",\"\/assets\/images\/gydjw_main03_r.jpg\"]","main_img":"\/assets\/images\/jw1.jpg","city_id":"1","country_id":"1","country_name_az":"Az\u0259rbaycan","country_name_en":"Azerbaijan","country_name_ru":"\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d ","country_name_ar":"Azerbaijan ","city_name_az":"Bak\u0131","city_name_en":"Baku","city_name_ru":"Baku","city_name_ar":"Baku"}];
+        $(document).ready(function () {
+
+            hotels = hotels.map(function (hotel) {
+                return {
+                    value: hotel["name_"+currentLanguage],
+                    data: hotel
+                }
+            });
+
+            var hotelIdInput = $("#hotel_id");
+            var hotelAcInput = $("#hotel-list-ac");
+            hotelAcInput.on("keydown", function (event) {
+                if (event.keyCode === 8 || event.keyCode === 46) {
+                    hotelIdInput.val("");
+                    hotelAcInput.val("")
+                }
+            }).on("blur", function () {
+                if(hotelIdInput.val() === "") {
+                    $(this).val("")
+                }
+            });
+            hotelAcInput.autocomplete({
+                lookup: hotels,
+                minChars: 0,
+                onSelect: function (suggestion) {
+                    hotelIdInput.val(suggestion.data.id);
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=496223437090509";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script> -->
+
+
+<!-- <div style="height: 77px;"></div> -->
+
+<header id="main-header">
+    <div class="container">
+        <div class="main-header-inner row">
+            <!-- <div class="col-xs-2 col-sm-1 col-md-4 col-lg-4">
+              <div class="img-logo"></div>
+            </div> -->
+            <div class="col-xs-4 col-sm-8 col-md-7 col-lg-7">
+                
+                <div class="img-logo"></div>
+                
+                <nav class="top-nav" role='navigation'>
+                    <span class="sandwich visible-xs">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                    <ul>
+                        <li><a href="/" data-localize="Home">Home</a></li>
+                        <li>
+                            <a href="/tours.php"><span data-localize="Tours">Tours</span> <span
+                                        class="ion-android-arrow-dropdown"></span></a>
+                            <ul>
+                                <li><a href="/tours.php?category_id=1"
+                                       data-localize="Incoming tours">Incoming tours</a></li>
+                                <li><a href="/tours.php?category_id=2"
+                                       data-localize="Outgoing tours">Outgoing tours</a></li>
+                                <li><a href="/tours.php?category_id=3"
+                                       data-localize="Sanatoriums">Medical tourism</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/hotels.php" data-localize="Hotels">Hotels</a></li>
+                        <li><a href="/flights.php" data-localize="Flights">Flights</a></li>
+                        <li>
+                            <a href="#"><span data-localize="Services">Services</span> <span
+                                        class="ion-android-arrow-dropdown"></span></a>
+                            <ul>
+                                                                    <li>
+                                        <a href="/service.php?id=1">Study abroad </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/service.php?id=2">E-visa to Azerbaijan </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/service.php?id=3">Corporate Travel & MICE </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/service.php?id=4">Working Visa to Poland </a>
+                                    </li>
+                                                                <li>
+                                    <a href="/myinfo.php">My info</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-1">
+                <div class="language-selector mt10">
+                    <div class="row p-sm">
+                        <div class="col-sm-12 text-right mt10">
+
+                            <div class="mn-dropdown">
+                                <div class="mn-d-selected text-uppercase">
+                                    <img class="flag mr5"
+                                         src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"
+                                         width="15"> en <span
+                                            class="arrow-down ion-android-arrow-dropdown pull-right"></span>
+                                </div>
+                                <div class="mn-d-content">
+
+                                    
+                                        
+                                    
+                                                                                    <a class="md-c-i"
+                                               href="/ru/">
+                                                <img class="flag mr5"
+                                                     src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"
+                                                     width="15"> ru                                            </a>
+                                        
+                                    
+                                                                                    <a class="md-c-i"
+                                               href="/az/">
+                                                <img class="flag mr5"
+                                                     src="https://lipis.github.io/flag-icon-css/flags/4x3/az.svg"
+                                                     width="15"> az                                            </a>
+                                        
+                                    
+                                                                                    <a class="md-c-i"
+                                               href="/ar/">
+                                                <img class="flag mr5"
+                                                     src="https://lipis.github.io/flag-icon-css/flags/4x3/ae.svg"
+                                                     width="15"> ar                                            </a>
+                                        
+                                                                    </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4 text-right hide">
+                            <button class="btn btn-signin">
+                                <span class="ion-android-person"></span>
+                                <span>Sign in</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="main-slider" class="relative" style="height: 430px;overflow: hidden">
+
+ <div class="main-slider-content" style="display:none; background-image: url(http://www.alisontravel.eu/img-xlarge/assets/images/bg1.jpg); background-size: cover;background-position: 50% 50%"></div>
+    
+    <div class="main-search-box relative">
+
+    <div class="container">
+
+        <div class="main-search-form">
+
+            <div class="page-search search-type-a">
+                <nav class="page-search-tabs">
+                    <div class="search-tab active" data-localize="Tours">Tours</div>
+                    <div class="search-tab" data-localize="Hotels">Hotels</div>
+                    <div class="search-tab" data-localize="Flights" id="flights-tab">Flights</div>
+                </nav>
+                <div class="page-search-content">
+                    <!-- // tab content // -->
+                    <div class="search-tab-content">
+                        <div class="page-search-p">
+
+                            <form action="/tours.php">
+
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="form-group">
+
+                                            <label for="" data-localize="Select country">Select country</label>
+
+                                            <div class="mn-select">
+                                                <select name="country_id">
+                                                    <option value="" data-localize="Any country">Any country</option>
+                                                                                                            <option value="1">Azerbaijan</option>
+                                                                                                            <option value="2">Georgia</option>
+                                                                                                            <option value="3">Italy </option>
+                                                                                                            <option value="4">Greece </option>
+                                                                                                            <option value="5">Turkey </option>
+                                                                                                            <option value="6">Russia </option>
+                                                                                                            <option value="7">Ukraine </option>
+                                                                                                            <option value="8">Hungary </option>
+                                                                                                            <option value="9">Spain </option>
+                                                                                                            <option value="10">Germany </option>
+                                                                                                            <option value="11">Czech Republic  </option>
+                                                                                                            <option value="12">Austria </option>
+                                                                                                            <option value="13">Portugal </option>
+                                                                                                            <option value="14">Thailand </option>
+                                                                                                            <option value="15">Japan </option>
+                                                                                                            <option value="16">Sri Lanka </option>
+                                                                                                            <option value="17">United Arab Emirates </option>
+                                                                                                            <option value="18">Indonesia</option>
+                                                                                                            <option value="19">Montenegro</option>
+                                                                                                    </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="form-group">
+
+                                            <label for="" data-localize="Select city">Select city</label>
+
+                                            <div class="mn-select">
+                                                <select>
+                                                    <option value="" data-localize="Any city">Any city</option>
+                                                                                                            <option value="1">Baku</option>
+                                                                                                            <option value="3">Gabala</option>
+                                                                                                            <option value="5">Rome</option>
+                                                                                                            <option value="6">Tbilisi </option>
+                                                                                                            <option value="7">Batumi </option>
+                                                                                                            <option value="8">Gabala </option>
+                                                                                                            <option value="9">Santorini </option>
+                                                                                                            <option value="10">Istanbul </option>
+                                                                                                            <option value="11">Antalia </option>
+                                                                                                            <option value="12">Bodrum</option>
+                                                                                                            <option value="13">Budapest </option>
+                                                                                                            <option value="14">Rhodos </option>
+                                                                                                            <option value="15">Lisbon </option>
+                                                                                                            <option value="16">Porto</option>
+                                                                                                            <option value="17">Bangkok </option>
+                                                                                                            <option value="18">Tokio </option>
+                                                                                                            <option value="19">Sri Lanka </option>
+                                                                                                            <option value="20">Moscow </option>
+                                                                                                            <option value="21">Kiev </option>
+                                                                                                            <option value="22">Lviv </option>
+                                                                                                            <option value="23">Dubai </option>
+                                                                                                            <option value="24">Izmir</option>
+                                                                                                            <option value="25">Barcelona</option>
+                                                                                                            <option value="26">BODRUM</option>
+                                                                                                            <option value="27">CESME</option>
+                                                                                                            <option value="28">BAKU-GUBA</option>
+                                                                                                            <option value="29">BAKU-GABALA-SHEKI</option>
+                                                                                                            <option value="30">Kuala Lumpur</option>
+                                                                                                    </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label for="" data-localize="Check in">Check in</label>
+                                            <div class="input-group">
+                                                <input placeholder="Check in" data-toggle="datepicker" class="form-control">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default" aria-label="Help"><span class="fa fa-calendar"></span></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label for="">Check out</label>
+                                            <div class="input-group">
+                                                <input placeholder="Check out" data-toggle="datepicker" class="form-control">
+                                                <span class="input-group-btn">
+                                                        <button type="button" class="btn btn-default" aria-label="Help"><span class="fa fa-calendar"></span></button>
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="form-group mb0">
+                                            <div class="mn-select">
+                                                <select>
+                                                    <option value="">People</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="form-group mb0">
+                                            <button class="btn btn-msf btn-block">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <!-- // tab content // -->
+                    <div class="search-tab-content">
+                        <div class="page-search-p">
+
+                            <form action="/hotel.php">
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="">Place / hotel name</label>
+                                            <div class="form-group">
+                                                <input id="hotel-list-ac" type="text" class="form-control" placeholder="Place / hotel name" required>
+                                                <input type="hidden" id="hotel_id" name="hotel_id">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label for="">Check in</label>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input placeholder="Check in" data-toggle="datepicker" class="form-control" name="checkIn">
+                                                    <span class="input-group-btn">
+                                                        <button type="button" class="btn btn-default" aria-label="Help"><span class="fa fa-calendar"></span></button>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label for="">Check out</label>
+                                            <div class="input-group">
+                                                <input placeholder="Check out" data-toggle="datepicker" class="form-control" name="checkOut">
+                                                <span class="input-group-btn">
+                                                        <button type="button" class="btn btn-default" aria-label="Help"><span class="fa fa-calendar"></span></button>
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="form-group">
+
+                                            <label for="">Adults (12+)</label>
+                                            <div class="mn-select">
+                                                <select name="adults">
+                                                    <option value="">Select</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="form-group">
+
+                                            <label for="">Child (2-12)</label>
+                                            <div class="mn-select">
+                                                <select name="child212">
+                                                    <option value="">Select</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="form-group">
+
+                                            <label for="">Child (0-2)</label>
+
+                                            <div class="mn-select">
+                                                <select name="child02">
+                                                    <option value="">Select</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-xs-6">
+                                        <div class="form-group mb0">
+
+                                            <div class="mn-select">
+                                                <select name="rooms">
+                                                    <option value="">Rooms</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                </select>
+                                                <span class="ion-ios-arrow-down"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="form-group mb0">
+                                            <button class="btn btn-msf btn-block">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+
+
+                    <!-- // tab content // -->
+                    <div class="search-tab-content">
+                        <div class="page-search-p">
+
+                            <form action="/book_flight.php">
+
+    <div class="row p-sm">
+        <div class="col-xs-6">
+            <div class="form-group">
+                <label for="">From</label>
+                <input type="text" class="form-control" placeholder="From" id="flight_from" required>
+                <input type="hidden" name="flight_from" required>
+                <input type="hidden" name="flight_from_label">
+                <input type="hidden" name="flight_from_city">
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-group">
+                <label for="">To</label>
+                <input type="text" class="form-control" placeholder="To" id="flight_to" required>
+                <input type="hidden" name="flight_to" required>
+                <input type="hidden" name="flight_to_label">
+                <input type="hidden" name="flight_to_city">
+            </div>
+        </div>
+    </div>
+
+    <div class="row p-sm">
+        <div class="col-xs-6">
+            <div class="form-group">
+                <label for="">Departure</label>
+                <div class="input-group">
+                    <input placeholder="Departure" data-toggle="datepicker" class="form-control" required name="departure_date">
+                    <span class="input-group-btn">
+                                                        <button type="button" class="btn btn-default" aria-label="Help"><span class="fa fa-calendar"></span></button>
+                                                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-group">
+                <label for="">Return</label>
+                <div class="input-group">
+                    <input placeholder="Return" data-toggle="datepicker" class="form-control" name="return_date">
+                    <span class="input-group-btn">
+                                                        <button type="button" class="btn btn-default" aria-label="Help"><span class="fa fa-calendar"></span></button>
+                                                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row p-sm">
+        <div class="col-xs-4">
+            <div class="form-group">
+
+                <label for="">Adults (12+)</label>
+                <div class="mn-select">
+                    <select name="adults" required>
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <span class="ion-ios-arrow-down"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="form-group">
+
+                <label for="">Child (2-12)</label>
+                <div class="mn-select">
+                    <select name="child212">
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <span class="ion-ios-arrow-down"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-xs-4">
+            <div class="form-group">
+
+                <label for="">Child (0-2)</label>
+
+                <div class="mn-select">
+                    <select name="child02">
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <span class="ion-ios-arrow-down"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row p-sm">
+
+        <div class="col-xs-6">
+            <div class="form-group mb0">
+
+                <div class="mn-select">
+                    <select name="class" required>
+                        <option value="1">Econom</option>
+                        <option value="2">Business</option>
+                    </select>
+                    <span class="ion-ios-arrow-down"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-xs-6">
+            <div class="form-group mb0">
+                <button class="btn btn-msf btn-block">Book flight</button>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<script>
+    window.airports = [];
+    function activeFlightAutocomplete() {
+        if(window.airports.length === 0) {
+            $.ajax({
+                url: "/api/airports.php?v=10",
+                cache: true,
+                success: function (response) {
+                    window.airports = response;
+
+                    var flightFromAcInput = $("#flight_from");
+
+                    var flightToAcInput = $("#flight_to");
+
+                    flightFromAcInput.autocomplete({
+                        lookup: window.airports,
+                        minChars: 2,
+                        width: 300,
+                        onSelect: function (suggestion) {
+                            flightFromAcInput.next().val(suggestion.data.airportID);
+                            flightFromAcInput.next().next().val(suggestion.value);
+                            flightFromAcInput.next().next().next().val(suggestion.data.city);
+                        },
+                        lookupFilter: function (suggestion, query, queryLowerCase) {
+                            var city = suggestion.data.city;
+                            var country = suggestion.data.country;
+                            return city.toLowerCase().startsWith(queryLowerCase) || country.toLowerCase().startsWith(queryLowerCase);
+                        }
+                    });
+
+                    flightToAcInput.autocomplete({
+                        lookup: window.airports,
+                        width: 300,
+                        onSelect: function (suggestion) {
+                            flightToAcInput.next().val(suggestion.data.airportID);
+                            flightToAcInput.next().next().val(suggestion.value);
+                            flightToAcInput.next().next().next().val(suggestion.data.city);
+                        }
+                    });
+                },
+                dataType: "json"
+            });
+        }
+    }
+</script>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            var storage = window.localStorage;
+
+            var tabNav = $(".page-search-tabs");
+            tabNav.find(" > div").on("click", function () {
+                var index = $(this).index();
+                var id = $(this).attr("id");
+                $(this).addClass("active").siblings().removeClass("active");
+                tabNav.next().find(" > div").eq(index).show(200).siblings().hide();
+                storage.setItem("lastActiveTabIndex", index);
+                if(id === "flights-tab") {
+
+                    if(window.airports.length === 0) {
+                        activeFlightAutocomplete();
+                    }
+
+                }
+            });
+
+            window.setTimeout(function () {
+                if(storage.getItem("lastActiveTabIndex")) {
+                    var index = storage.getItem("lastActiveTabIndex");
+                    tabNav.find(" > div").eq(index).trigger("click");
+                }
+            }, 100);
+
+        })
+
+    </script>
+
+</div></div>
+
+<div class="why hidden-xs">
+    <div class="container">
+        <div class="row text-center item-services">
+            <div class="col-sm-3 p0">
+                <div class="item-service-line">
+                    <i class="fa fa-plane"></i>
+                    <h5>Travel Arrangements</h5>
+                </div>
+            </div>
+            <div class="col-sm-3 p0">
+                <div class="item-service-line">
+                    <i class="fa fa-user"></i>
+                    <h5>Private Guide</h5>
+                </div>
+            </div>
+            <div class="col-sm-3 p0">
+                <div class="item-service-line">
+                    <i class="fa fa-money"></i>
+                    <h5>Best Price Guarantee</h5>
+                </div>
+            </div>
+            <div class="col-sm-3 p0">
+                <div class="item-service-line">
+                    <i class="fa fa-bank"></i>
+                    <h5>Trust & Safety</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="tours-list">
+
+    <div class="text-center">
+        <h1 class="ppb_title" style="">Available tours</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-39" data-src="/img-medium/assets/images/alacatimayis17_05-1170x780.jpg">
+                            <a class="tour_image" href="/tour.php?id=39"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>CESME</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        6 days / 5 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-12" data-src="/img-medium/assets/images/venice_hdr_by_znowkid-d48oako.jpg">
+                            <a class="tour_image" href="/tour.php?id=12"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $350                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>ITALIAN WEEK</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        7 days / 6 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-7" data-src="/img-medium/assets/images/Rome-100628.jpg">
+                            <a class="tour_image" href="/tour.php?id=7"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>ITALY</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-38" data-src="/img-medium/assets/images/bo1.jpg">
+                            <a class="tour_image" href="/tour.php?id=38"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BODRUM</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-37" data-src="/img-medium/assets/images/İST5.jpg">
+                            <a class="tour_image" href="/tour.php?id=37"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $240                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>ISTANBUL</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-22" data-src="/img-medium/assets/images/Budapest-Wallpaper-HD.jpg">
+                            <a class="tour_image" href="/tour.php?id=22"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $300                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BUDAPEST</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-5" data-src="/img-medium/assets/images/Greece-Oia-Santorini.jpg">
+                            <a class="tour_image" href="/tour.php?id=5"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>SANTORINI</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        9 days / 8 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-9" data-src="/img-medium/assets/images/Batumi.jpg">
+                            <a class="tour_image" href="/tour.php?id=9"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BATUMI</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-41" data-src="/img-medium/assets/images/Moonrise_over_kuala_lumpur.jpg">
+                            <a class="tour_image" href="/tour.php?id=41"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>Kuala Lumpur</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        4 days / 3 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-33" data-src="/img-medium/assets/images/Dubai2.jpg">
+                            <a class="tour_image" href="/tour.php?id=33"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>DUBAI</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        4 days / 3 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-8" data-src="/img-medium/assets/images/Tbilisi.jpg">
+                            <a class="tour_image" href="/tour.php?id=8"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>TBILISI</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-27" data-src="/img-medium/assets/images/thumb-1920-521626.jpg">
+                            <a class="tour_image" href="/tour.php?id=27"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BANGKOK</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        8 days / 7 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-29" data-src="/img-medium/assets/images/e701ef08d033612fa93ef481d0209fb0.jpg">
+                            <a class="tour_image" href="/tour.php?id=29"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>SRI LANKA</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        8 days / 7 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-25" data-src="/img-medium/assets/images/538da7ecab6e2.jpg">
+                            <a class="tour_image" href="/tour.php?id=25"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $887                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>RHODOS</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        8 days / 7 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-28" data-src="/img-medium/assets/images/thumb-1920-545207.jpg">
+                            <a class="tour_image" href="/tour.php?id=28"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>TOKIO</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        10 days / 9 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-35" data-src="/img-medium/assets/images/sejour-antalya-turquie-vacances-voyage-halal-prive-musulman-islamique.jpg">
+                            <a class="tour_image" href="/tour.php?id=35"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>IZMIR</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-26" data-src="/img-medium/assets/images/thumb-1920-774444.jpg">
+                            <a class="tour_image" href="/tour.php?id=26"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>PORTUGAL</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        12 days / 11 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-31" data-src="/img-medium/assets/images/230100_katedra_panorama_miasta.jpg">
+                            <a class="tour_image" href="/tour.php?id=31"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>KIEV</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        7 days / 6 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-36" data-src="/img-medium/assets/images/Barca1.jpg">
+                            <a class="tour_image" href="/tour.php?id=36"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BARCELONA</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        4 days / 3 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-30" data-src="/img-medium/assets/images/thumb-1920-554052.jpg">
+                            <a class="tour_image" href="/tour.php?id=30"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>MOSCOW</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        8 days / 7 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-40" data-src="/img-medium/assets/images/Qub3.jpg">
+                            <a class="tour_image" href="/tour.php?id=40"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BAKU-GUBA</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-6" data-src="/img-medium/assets/images/bak1.jpg">
+                            <a class="tour_image" href="/tour.php?id=6"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $199                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>BAKU</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        3 days / 2 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-32" data-src="/img-medium/assets/images/Ukraine_Holidays_459938_2880x1800.jpg">
+                            <a class="tour_image" href="/tour.php?id=32"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>LVIV</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        8 days / 7 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-10" data-src="/img-medium/assets/images/GAB6.jpg">
+                            <a class="tour_image" href="/tour.php?id=10"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>GABALA</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        5 days / 4 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+                
+                <div class="tour-element col-sm-6 col-md-4" style="display:none">
+
+                    <div class="element grid classic3_cols animated4">
+
+                        <div class="one_third gallery3 grid static filterable portfolio_type themeborder llbgimg" data-id="post-11" data-src="/img-medium/assets/images/ant1.jpg">
+                            <a class="tour_image" href="/tour.php?id=11"></a>
+                            <div class="portfolio_info_wrapper">
+                                <div class="tour_price has_discount">
+                                    <span class="normal_price">from</span>
+                                    $100                                </div>
+                                <div class="tour_attribute_wrapper">
+                                    <div class="tour_attribute_rating">
+                                        <h4>ANTALIA</h4>
+                                    </div>
+
+                                    <div class="tour_attribute_days">
+                                        <span class="ion-android-time"></span>
+                                        4 days / 3 nights                                    </div>
+                                </div>
+                                <br class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+        </div>
+
+        <div class="text-center">
+            <a id="load-more-button" class="btn btn-msf btn-lg">
+                <div class="loader" id="loader-4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span class="label">Load More</span>
+
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<div>
+    <br><br>
+</div>
+
+<footer>
+    <div class="container">
+
+        <div class="col-sm-12">
+
+            <div class="row">
+
+                <div class="col-sm-3 text-white">
+                    <h3 class="widget-title">Azerbaijan</h3>
+                    <h5 class="widget-subtitle">Baku office</h5>
+                    <br>
+                    <div class="contacts">
+
+                        <p>
+                            <span class="ion-android-phone-portrait mr5"></span> +994 50 494 94 99
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-telephone mr5"></span> +994 12 511 12 14
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-location mr5"></span> 55 Khojali ave, AGA Business Centre 1st floor
+                            AZ1025, Baku
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-email mr5"></span> info@alisontravel.eu
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3 text-white">
+                    <h3 class="widget-title">Georgia</h3>
+                    <h5 class="widget-subtitle">Tbilisi office</h5>
+                    <br>
+                    <div class="contacts">
+                        <p>
+                            <span class="ion-android-phone-portrait mr5"></span> +995 577 05 66 00
+                        </p>
+
+
+                        <p>
+                            <span class="ion-ios-location mr5"></span> Chavchavadze str. 15
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-email mr5"></span> info@alisontravel.eu
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3 text-white">
+                    <h3 class="widget-title">Ukraine</h3>
+                    <h5 class="widget-subtitle">Lvive office</h5>
+                    <br>
+                    <div class="contacts">
+
+                        <p>
+                            <span class="ion-android-phone-portrait mr5"></span> +380 63 246 7483
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-telephone mr5"></span> +380 67 403 5105
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-location mr5"></span> Львов 79008, площадь Соборная 17
+                        </p>
+
+                        <p>
+                            <span class="ion-ios-email mr5"></span> reservation@alisontravel.eu
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <h3 class="widget-title">Quick links</h3>
+                    <h5 class="widget-subtitle"></h5>
+
+                    <br>
+
+                    <ul class="simple-list">
+                        <li>
+                            <a href="/page.php?id=4">Our company</a>
+                        </li>
+                        <li>
+                            <a href="/page.php?id=5">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="mt10">
+                        <span class="text-white">© Copyright 2018. All rights reserved.</span>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+
+                    <div class="text-md-right">
+                        <a href="https://www.facebook.com/Alisontravel.eu/" target="_blank"
+                           class="ion-social-facebook socs"></a>
+
+                        <a href="https://www.instagram.com/alison.travel/" target="_blank"
+                           class="ion-social-instagram socs"></a>
+
+                        <span class="ion-social-youtube socs"></span>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+        </div>
+
+    </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-105297725-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.7.1/lazyload.min.js"></script>
+
+<script src="/assets/plugins/datepicker/datepicker.min.js"></script>
+
+<script src="/assets/js/main.js?v=3.8"></script>
+
+
+
+<div class="fb-messenger-widgetfirame hide-box">
+    <div class="toggle-fb-m-box" onclick="$('.fb-messenger-widgetfirame').toggleClass('hide-box')">
+        <span class="hide-label">Hide</span>
+        <span class="show-label">Send message</span>
+    </div>
+    <div id="zb-fb-chatbox" class="fb-page fb_iframe_widget"
+         data-tabs="messages"
+         data-href="https://www.facebook.com/Alisontravel.eu/"
+         data-width="290" data-height="280" data-small-header="true"
+         data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+
+    </div>
+</div>
+
+</body>
+</html>

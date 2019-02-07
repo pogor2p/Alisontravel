@@ -1,0 +1,36 @@
+@media (min-width: 1401px){
+    #main-header {
+        height: 770px;
+    }
+}
+@media (max-width: 1400px){
+    #main-header {
+        height: 750px;
+    }
+}
+@media (max-width: 1300px){
+    
+    #main-header {
+        height: 700px;
+    }
+}
+@media (max-width: 1200px) {
+    #main-header {
+        height: 650px;
+    }
+}
+@media (max-width: 992px) {
+    #main-header {
+        height: 600px;
+    }
+}
+@media (max-width: 768px) {
+    #main-header {
+        height: 550px;
+    }
+}
+@media (max-width: 576px) {
+    #main-header {
+        height: 500px;
+    }
+}             
