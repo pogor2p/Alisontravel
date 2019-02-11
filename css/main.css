@@ -61,7 +61,7 @@ button {
     background-size: contain;
     outline: 2px solid #e9457f;
 }
-.img-find {
+/* .img-find {
     position: absolute;
     height: inherit;
     width: 100%;
@@ -70,7 +70,7 @@ button {
     background-image: url(../image/find-places-to-stay770.png);
     background-size: auto 100%;
     background-repeat: no-repeat;
-}
+} */
 .nav {
     height: inherit;
     width: 100%;  
