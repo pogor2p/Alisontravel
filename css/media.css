@@ -1,35 +1,35 @@
 @media (min-width: 576px) {
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 500px;
     }
 } 
 @media (min-width: 768px) {
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 550px;
     }
 }
 @media (min-width: 992px) {
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 600px;
     }
 }
 @media (min-width: 1200px) {
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 650px;
     }
 }
 @media (min-width: 1300px){
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 700px;
     }
 }
 @media (min-width: 1400px){
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 750px;
     }
 }
 @media (min-width: 1401px){
-    .header,.img-find,.content-box-2 {
+    .header,.content-box-2 {
         height: 770px;
     }
 }
