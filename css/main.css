@@ -54,25 +54,6 @@ button {
     background-size: contain;
     outline: 2px solid #e9457f;
 }
-.title-find {
-    margin: 12% -15px 0 -15px; 
-    outline: 2px dashed yellowgreen;
-}
-.title-find h1 {
-    font-family: 'Galano Grotesque DEMO Bold';/* 'GothamPro-Bold','Verdana','Source Sans Pro', sans-serif; */
-    font-size: 3.8rem;
-    color: rgba(255, 255, 255, 0.7);
-}    
-.title-find h1 b {
-    color: #fff;
-}
-.bott-nav {
-    margin: 3% -15px 0 -15px;
-    /* padding: 0;  */
-    /* width: 100%; */
-    height: 80px;
-    background-color: blue;
-} 
 .top-nav ul { 
     list-style: none;
     position: relative;
@@ -112,7 +93,6 @@ button {
     box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding-left: 0;
-    z-index: 11000;
     min-width: 150px;
 }
 .top-nav ul ul li {
@@ -180,5 +160,54 @@ button {
 .language-selector {
    /* margin-right: -25px; */
 }
- 
+.title-find {
+    margin: 12% -15px 0 -15px; 
+    outline: 2px dashed yellowgreen;
+}
+.title-find h1 {
+    font-family: 'Galano Grotesque DEMO Bold','Verdana','Source Sans Pro', sans-serif;
+    font-size: 3.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}    
+.title-find h1 b {
+    color: #fff;
+}
+.bott-nav {
+    margin: 5% -15px 0 -15px;
+    height: 60px;
+    border-bottom: 2px solid #fff;
+}
+.bott-nav ul { 
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.bott-nav ul li {
+    display: block;
+    /* -webkit-transition: all .2s ease-in-out; */
+    /* transition: all .2s ease-in-out; */
+} 
+.bott-nav ul li a {
+    display: block;
+    padding: 20px 0;
+    margin: 0 50px 0 0;
+    color: #fefefe; /*d8d8d8;*/
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    outline: 1px dotted #222;
+}
+.list {
+    margin-top: 40px;
+    background-color: #fff;
+    height: 60px;
+
+}
+.list__btn {
+    padding: 0;
+    margin: 0;
+    width: 16.6666%;
+    outline: 1px dotted #111;
+}
 
