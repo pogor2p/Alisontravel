@@ -211,9 +211,31 @@ button {
     font-family: HelveticaNeue,'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
     text-align: center;
-    color: #555;
+     
     /* vertical-align: bottom; */
     /* line-height: 2.5rem; */
     outline: 1px dotted #111;
 }
+section {
+    font-size: 50px;
+    color: #fefefe;
+    text-align: center;
 
+}
+section h1 {
+    color: #444;
+}
+.holiday .row div:first-of-type {
+    margin-left: -15px;
+}
+.s-box {
+    margin-top: 30px;
+    padding: 130px 0;
+    height: 350px;
+}
+.azer {
+    background-image: url(../image/sliders/azerbaijan/bitmap.jpg);
+}
+.geor {
+    background-image: url(../image/sliders/azerbaijan/bitmap.jpg);
+}
