@@ -161,7 +161,7 @@ button {
    /* margin-right: -25px; */
 }
 .title-find {
-    margin: 12% -15px 0 -15px; 
+    margin: 15% -15px 0 -15px;/*180px*/ 
     outline: 2px dashed yellowgreen;
 }
 .title-find h1 {
@@ -200,14 +200,20 @@ button {
 }
 .list {
     margin-top: 40px;
-    background-color: #fff;
+    background-color: #fefefe;
     height: 60px;
 
 }
 .list__btn {
-    padding: 0;
+    padding:1rem;
     margin: 0;
     width: 16.6666%;
+    font-family: HelveticaNeue,'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    /* vertical-align: bottom; */
+    /* line-height: 2.5rem; */
     outline: 1px dotted #111;
 }
 
