@@ -161,7 +161,8 @@ button {
    /* margin-right: -25px; */
 }
 .title-find {
-    margin: 15% -15px 0 -15px;/*180px*/ 
+    /* margin: 15% -15px 0 -15px;180px  */
+    margin-top: 20%;
     outline: 2px dashed yellowgreen;
 }
 .title-find h1 {
@@ -173,7 +174,7 @@ button {
     color: #fff;
 }
 .bott-nav {
-    margin: 5% -15px 0 -15px;
+    margin: 8% 0 0 0;
     height: 60px;
     border-bottom: 2px solid #fff;
 }
@@ -215,27 +216,69 @@ button {
     /* vertical-align: bottom; */
     /* line-height: 2.5rem; */
     outline: 1px dotted #111;
+        /* padding: 130px 0; */
+    /* padding-right: 50px; */
+    /* padding: 50px; */
 }
 section {
     font-size: 50px;
-    color: #fefefe;
     text-align: center;
-
-}
-section h1 {
     color: #444;
 }
-.holiday .row div:first-of-type {
-    margin-left: -15px;
+section h2 {
+    position: relative;
+    top: -200px;
+    color: #fefefe;
+}
+
+.holiday .i-2 img{
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 560px;
+}
+.holiday .i-3 img{ 
+    width: 340px;
+    height: 340px;
+}
+.viz-row{
+    /* height: 350px;
+    width:  580px; */
+    background-color: #222;
+
+}
+.mar {
+    /* padding: 0 !important; */
+       /* margin: 0 !important; */
 }
 .s-box {
-    margin-top: 30px;
-    padding: 130px 0;
-    height: 350px;
+    /* display: flex; */
+    /* justify-content:  space-between ; */
+    /*flex-end;*/
+    /* align-items: end; */
+    /* position: relative; */
+    /* margin-top: 15px; */
+    /* padding: 0; */
+       /* margin: 0; */
+    /* width:  580px; */
+     width: 550px;
+    /*height: 350px; */
+    background-color: green;
+    /* background-repeat: no-repeat; */
+    /* background-origin: content-box; */
 }
-.azer {
-    background-image: url(../image/sliders/azerbaijan/bitmap.jpg);
+.color-grey {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    /* margin: auto; */
 }
-.geor {
-    background-image: url(../image/sliders/azerbaijan/bitmap.jpg);
-}
+.i-2 {
+    width: 550px;
+    border-left: 2px dotted green !important;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* display: block; */
+    /* padding-right: 0px; */
+    /* margin-right: 0px; */
+    /* margin-left: 30px; */
+} 
