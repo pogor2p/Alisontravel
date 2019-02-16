@@ -271,8 +271,9 @@ section h2 {
     background-color: #999;
     /* margin: auto; */
 }
-.i-2 {
-    width: 550px;
+.img-big {
+    height: 300px;
+    width: 250px;
     border-left: 2px dotted green !important;
     /* margin: 0; */
     /* padding: 0; */
@@ -293,6 +294,12 @@ section h2 {
 }
 .tour_image {
     display: block;
-    width: 280px;
+    width: 340px;
     height: 350px;
 } 
+.tour_element {
+    /* display: block; */
+    /* width: 280px; */
+    height: 350px;
+}
+
