@@ -43,8 +43,7 @@ button {
     /* background-size: 100% auto; */
     background-repeat: no-repeat;
 }
-.content-box-1 {
-    /* width: 90%; */
+.outline-1 {
     outline: 2px dotted #e9457f;
 }
 .img-logo {
