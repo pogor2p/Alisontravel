@@ -203,7 +203,7 @@ button {
 
 }
 .list__btn {
-    padding:1rem;
+    padding: 1rem;
     margin: 0;
     width: 16.6666%;
     font-family: HelveticaNeue,'Source Sans Pro', sans-serif;
@@ -246,6 +246,10 @@ button {
 }
 .tour__img {
     display: block;
-
     height: 350px;
-} 
+    margin-bottom: -10px;
+}
+.tour__img, .tour__img:hover {
+    text-decoration: none;
+    color: inherit;
+}  
