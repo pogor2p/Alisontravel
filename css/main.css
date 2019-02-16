@@ -161,7 +161,6 @@ button {
    /* margin-right: -25px; */
 }
 .title-find {
-    /* margin: 15% -15px 0 -15px;180px  */
     margin-top: 20%;
     outline: 2px dashed yellowgreen;
 }
@@ -173,23 +172,24 @@ button {
 .title-find h1 b {
     color: #fff;
 }
-.bott-nav {
-    margin: 8% 0 0 0;
+.header-bott-nav {
+    /* margin: 20px 0 0 0; */
+    margin-top: 20px;
     height: 60px;
     border-bottom: 2px solid #fff;
 }
-.bott-nav ul { 
+.header-bott-nav ul { 
     list-style: none;
     position: relative;
     padding: 0;
     margin: 0;
 }
-.bott-nav ul li {
+.header-bott-nav ul li {
     display: block;
     /* -webkit-transition: all .2s ease-in-out; */
     /* transition: all .2s ease-in-out; */
 } 
-.bott-nav ul li a {
+.header-bott-nav ul li a {
     display: block;
     padding: 20px 0;
     margin: 0 50px 0 0;
@@ -222,9 +222,9 @@ button {
 }
 section {
     font-size: 50px;
-    text-align: center;
     color: #444;
 }
+/* text-align: center; */
 section h2 {
     position: relative;
     top: -200px;
@@ -281,4 +281,19 @@ section h2 {
     /* padding-right: 0px; */
     /* margin-right: 0px; */
     /* margin-left: 30px; */
+}
+.grid {
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.tour_image {
+    display: block;
+    width: 280px;
+    height: 350px;
 } 
