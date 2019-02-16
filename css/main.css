@@ -247,9 +247,10 @@ button {
 .tour__img {
     display: block;
     height: 350px;
-    margin-bottom: -10px;
+    border-radius: 5px;
+
 }
 .tour__img, .tour__img:hover {
     text-decoration: none;
-    color: inherit;
+    color: #fefefe;
 }  
