@@ -242,13 +242,16 @@ button {
 }
 */
 .tour {
-    margin-top: 30px;
+    margin: 15px 0;
 }
 .tour__img {
     display: block;
-    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
-
+    height: 350px;
+    
 }
 .tour__img, .tour__img:hover {
     text-decoration: none;
