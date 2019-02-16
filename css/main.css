@@ -282,7 +282,7 @@ section h2 {
     /* margin-right: 0px; */
     /* margin-left: 30px; */
 }
-.grid {
+/* .grid {
     border-radius: 5px;
     background-size: cover;
     background-position: center center;
@@ -291,15 +291,12 @@ section h2 {
     margin-bottom: 30px;
     cursor: pointer;
     transition: all .2s;
+} */
+.tour {
+    margin-top: 20px;
 }
-.tour_image {
+.tour__image {
     display: block;
-    width: 340px;
+    /* width: 350px; */
     height: 350px;
 } 
-.tour_element {
-    /* display: block; */
-    /* width: 280px; */
-    height: 350px;
-}
-
