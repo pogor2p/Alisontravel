@@ -259,7 +259,7 @@ button {
 }  
 /* ****** card ******* */
   
-  .cards-holder-3 {
+ /*  .cards-holder-3 {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
@@ -272,8 +272,8 @@ button {
     display: inline-block;
     margin: 10px;
     vertical-align: top;
-  }
-  @media(min-width: 600px) {
+  } */
+  /* @media(min-width: 600px) {
     .cards-holder-3 .card-1 {
       width: 380px;
       height: 458px;
@@ -283,13 +283,17 @@ button {
     .cards-holder-3 .card-1 {
       width: calc(50% - 26px);
     }
-  }
+  } */
   .card-1 {
     background: #eee;
     border: 1px solid #777;
+    box-sizing: border-box;
+    /* width: 100%; */
+    /* margin: 10px; */
+    /* padding: 10px; */
   }
   .card-1__container {
-    padding: 10px 10px 0;
+    /* padding: 10px 10px 0; */
   }
   .card-1__image {
     width: 100%;
