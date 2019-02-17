@@ -1,14 +1,11 @@
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
     .header,.content-box-2 {
         height: 300px;
     }
     .tour__img {
         height: 250px;
     }
-    .sm-md-none {
-        display: none;
-    }
-  
+   
 } 
 @media (min-width: 576px) {
     .header,.content-box-2 {
@@ -17,12 +14,7 @@
     .tour__img {
         height: 300px;
     }
-    .sm-md-none {
-        display: none;
-    }
-    .lg-xl-none {
-        display: block;
-    }
+
 } 
 @media (min-width: 768px) {
     .header,.content-box-2 {
@@ -31,12 +23,7 @@
     .tour__img {
         height: 350px;
     }
-    .sm-md-none {
-        display: none;
-    }
-    .lg-xl-none {
-        display: block;
-    }
+
 }
 @media (min-width: 992px) {
     .header,.content-box-2 {
@@ -45,12 +32,7 @@
     .tour__img {
         height: 380px;
     }
-    .sm-md-none {
-        display: block;
-    }
-    .lg-xl-none {
-        display: none;
-    }
+
 }
 @media (min-width: 1200px) {
     .header,.content-box-2 {
@@ -59,12 +41,7 @@
     .tour__img {
         height: 400px;
     }
-    .sm-md-none {
-        display: block;
-    }
-    .lg-xl-none {
-        display: none;
-    }
+
 }
 @media (min-width: 1300px){
     .header,.content-box-2 {
@@ -73,12 +50,7 @@
     .tour__img {
         height: 440px;
     }
-    .sm-md-none {
-        display: block;
-    }
-    .lg-xl-none {
-        display: none;
-    }
+
 }
 @media (min-width: 1400px){
     .header,.content-box-2 {
@@ -87,12 +59,7 @@
     .tour__img {
         height: 480px;
     }
-    .sm-md-none {
-        display: block;
-    }
-    .lg-xl-none {
-        display: none;
-    }
+
 }
 @media (min-width: 1500px){
     .header,.content-box-2 {
@@ -101,10 +68,5 @@
     .tour__img {
         height: 500px;
     }
-    .sm-md-none {
-        display: block;
-    }
-    .lg-xl-none {
-        display: none;
-    }
+
 }
