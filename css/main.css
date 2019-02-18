@@ -211,6 +211,9 @@ button {
     text-align: center;
     outline: 1px dotted #111;
 }
+/* section {
+    background-color: # fefefe;
+} */
 .text-headline {
     text-align: center;
     font-size: 50px;
@@ -284,63 +287,179 @@ button {
       width: calc(50% - 26px);
     }
   } */
-  .card-1 {
-    background: #eee;
-    border-radius: 5px;
-    /* border: 1px solid #777; */
-    box-sizing: border-box;
-    /* width: 100%; */
-    /* margin: 10px; */
-    /* padding: 10px; */
-  }
-  .card-1__container {
-    padding: 10px;
-  }
-  .card-1__image {
-    width: 100%;
-    height: 263px;
-  }
-  .card-1__title {
-    margin-bottom: 4px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #555;
-  }
-  .card-1__description {
-    font-size: 14px;
- 
-  }
-  .card-1__footer {
-    
-  }
-  .card-1__stars {
+.card-1 {
+  margin: 15px 0;
+  background: #fff;
+  border-radius: 5px;
+  /* border: y1px solid #777; */
+  /* box-sizing: border-box; */
+  /* width: 100%; */
+  /* margin: 10px; */
+  /* padding: 10px; */
+}
+.card-1__container {
+  padding: 10px;
+}
+.card-1__image {
+  width: 100%;
+  height: 263px;
+}
+.card-1__title {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+.card-1__description {
+  font-size: 14px;
+
+}
+.card-1__footer {
+  
+}
+.card-1__stars {
+  white-space: nowrap;
+}
+.card-1__star {
+  display: inline-block;
+}
+.card-1__star img{
+  height: 20px;
+  width: 20px;
+}
+.card-1__star_half {
+  border-color: #aaa;
+}
+.card-1__price-holder {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+  .card-1__price-currency {
+    display: inline-block;
     white-space: nowrap;
   }
-  .card-1__star {
-    display: inline-block;
-  }
-  .card-1__star img{
-    height: 20px;
-    width: 20px;
-  }
-  .card-1__star_half {
-    border-color: #aaa;
-  }
-  .card-1__price-holder {
-    margin-bottom: 4px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #555;
-  }
-    .card-1__price-currency {
-      display: inline-block;
-      white-space: nowrap;
-    }
-  .card-1__price-value {
-    display: inline-block;
-    /* white-space: nowrap; */
-  }
+.card-1__price-value {
+  display: inline-block;
+  /* white-space: nowrap; */
+}
+.card-2 {
+  height: 440px;
+  margin: 15px 0;
+  background: #fff;
+  border-radius: 5px;
+}
+.card-2__image-holder {
+  height: 220px;
+  width: 100%;
+  padding-top: 60px;
+  
+}
+.card-2__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+.card-2__container {
+  padding: 20px;
+}
+.card-2__title {
+  padding-bottom: 20px;
+}
 
- 
-  
-  
+ .card-3 {
+  height: 380px;
+  margin: 15px 0;
+  border-radius: 5px;
+  background-size: cover;
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+}
+.card-3:before {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 200ms;
+  z-index: 1;
+}
+.card-3:hover:before {
+  opacity: 0;
+}
+.card-3__container {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 1;
+  padding: 10px 10px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 200ms;
+  z-index: 2;
+}
+.card-3:hover .card-3__container {
+  opacity: 0;
+}
+.card-3_red:before {
+  background: rgba(155, 0, 0, 0.8);
+}
+.card-3_green:before {
+  background: rgba(0, 155, 0, 0.8);
+}
+.card-3_blue:before {
+  background: rgba(0, 0, 155, 0.8);
+}
+.input-group-text {
+  background-image: linear-gradient(to right, #a21d6e, #e2245e);
+  color: #fff;
+}
+.height_1 {
+  height: 46px; 
+}
+
+.card-22 {
+  width: 200px;
+}
+
+/* *** costom style *** 
+append
+.slick-list {
+    overflow: visible;
+}
+.slick-prev:before
+{
+    content: "";
+    display: block;
+    height: 40px;
+    width: 25px;
+    background-color: #999;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    background: #999 url("../../image/svg/right-arrow.svg") center;
+    background-size: cover;
+}
+.slick-next:before
+{
+    content: "";
+    display: block;
+    height: 40px;
+    width: 25px;
+    background-color: #999;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    background: #999 url("../../image/svg/right-arrow.svg") center;
+    background-size: cover;
+}*/

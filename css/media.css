@@ -14,7 +14,7 @@
     .tour__img {
         height: 300px;
     }
-
+ 
 } 
 @media (min-width: 768px) {
     .header,.content-box-2 {
