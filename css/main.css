@@ -45,12 +45,11 @@ button {
 .outline-1 {
     outline: 2px dotted #e9457f;
 }
-.img-logo {
-    height: 70px;
-    width: 100px;
-    background: transparent url(../image/logo-transparents2x.png)  no-repeat;
+.logo-img {
+    height: 65px;
+    width: 85px; 
+    background: transparent url(../image/icons/logo/logo-transparents2x.png)  no-repeat;
     background-size: contain;
-    outline: 2px solid #e9457f;
 }
 .top-nav ul { 
     list-style: none;
@@ -62,7 +61,7 @@ button {
 .top-nav ul li {
     display: block;
     outline: 1px dotted #111;
-    /* -webkit-transition: all .2s ease-in-out; */
+    /* -webkit-transition: all .2s ease-in-out;*/
     /* transition: all .2s ease-in-out; */
 }
 .top-nav ul li:hover > a {
@@ -428,8 +427,52 @@ button {
   height: 46px; 
 }
 
-.card-22 {
+.card-4 {
   width: 200px;
+}
+.card-4__logo,
+.card-4__country {
+    height: 65px;
+}
+.card-4__logo {
+  /*color #a21d6e */
+ 
+    background: transparent url(../image/icons/logo/logo-transparents2xred.png)  no-repeat;
+    background-size: contain;
+}
+.card-4__info {
+    height: 42px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+}
+.card-4__icons img {
+    height: 15px;
+}
+.card-4__logo2 {
+    height: 42px;
+    width: 70px; 
+    background: transparent url(../image/icons/azerbaijzn/azerbaijzn@2x.png)  no-repeat;
+    background-size: contain;
+}
+.card-5__country {
+  height: 65px;
+  width: 85px;
+  background: transparent url(../image/icons/azerbaijan.svg)  no-repeat;
+  background-size: contain;
+}
+.card-5__contacts::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    background: transparent url(../image/icons/phone.svg)  no-repeat;
+    background-size: contain;
+
 }
 
 /* *** costom style *** 
