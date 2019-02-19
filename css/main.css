@@ -493,21 +493,45 @@ button {
     background-size: contain;
 }
 .card-5__mail::before {
-  content: "";
-  height: 18px;
-  width: 18px;
-  position: relative;
-  top: 8px;
-  margin-right: 15px;
-  display: inline-block;
-  background: transparent url(../image/icons/mail.svg) no-repeat;
-  background-size: contain;
+    content: "";
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top: 8px;
+    margin-right: 15px;
+    display: inline-block;
+    background: transparent url(../image/icons/mail.svg) no-repeat;
+    background-size: contain;
 }
 .card-5 {
-  font-family: HelveticaNeue;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: -0.4px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+}
+.copyright {
+    height: 75px;
+}
+.copyright__text {
+    /* height: 30px; */
+}
+.copyright__visa {
+  height: 40px;
+  width: 60px;
+  background: #999 url(../image/icons/visa.svg) no-repeat;
+  background-size: contain;
+}
+.copyright__mastercard {
+  height: 40px;
+  width: 60px;
+  background: #999 url(../image/icons/master-card.svg) no-repeat;
+  background-size: contain;
+}
+.copyright__am-express {
+  height: 40px;
+  width: 60px;
+  background: #999 url(../image/icons/am-express.svg) no-repeat;
+  background-size: contain;
 }
 
 
