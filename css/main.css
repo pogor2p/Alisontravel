@@ -427,16 +427,24 @@ button {
   height: 46px; 
 }
 
+/* footer {
+  height: 300px;
+} */
+.brd-top {
+  border-top: 2px solid #eaeaea;
+}
+
 .card-4 {
   width: 200px;
+  height: 300px;
 }
-.card-4__logo,
-.card-4__country {
-    height: 65px;
+.card-4, .card-5 {
+    outline: 1px dotted #111;
 }
 .card-4__logo {
   /*color #a21d6e */
- 
+    height: 65px;
+    width: 85px; 
     background: transparent url(../image/icons/logo/logo-transparents2xred.png)  no-repeat;
     background-size: contain;
 }
@@ -457,23 +465,51 @@ button {
     background-size: contain;
 }
 .card-5__country {
-  height: 65px;
-  width: 85px;
-  background: transparent url(../image/icons/azerbaijan.svg)  no-repeat;
-  background-size: contain;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  height: 25px;
+}
+.card-5__country div {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 500;
 }
 .card-5__contacts::before {
     content: "";
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     position: relative;
-    top: 5px;
+    top: 4px;
     margin-right: 10px;
     display: inline-block;
-    background: transparent url(../image/icons/phone.svg)  no-repeat;
+    background: transparent url(../image/icons/phone.svg) no-repeat;
     background-size: contain;
-
 }
+.card-5__address__icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background: transparent url(../image/icons/location.svg)  no-repeat;
+    background-size: contain;
+}
+.card-5__mail::before {
+  content: "";
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 8px;
+  margin-right: 15px;
+  display: inline-block;
+  background: transparent url(../image/icons/mail.svg) no-repeat;
+  background-size: contain;
+}
+.card-5 {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+}
+
 
 /* *** costom style *** 
 append
