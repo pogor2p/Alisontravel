@@ -427,38 +427,32 @@ button {
   height: 46px; 
 }
 
-/* footer {
-  height: 300px;
-} */
 .brd-top {
   border-top: 2px solid #eaeaea;
 }
 
-.card-4 {
-  width: 200px;
+.card-5 {
+  width: 23%;
   height: 300px;
 }
-.card-4, .card-5 {
-    outline: 1px dotted #111;
-}
-.card-4__logo {
+.card-5__logo {
   /*color #a21d6e */
     height: 65px;
     width: 85px; 
     background: transparent url(../image/icons/logo/logo-transparents2xred.png)  no-repeat;
     background-size: contain;
 }
-.card-4__info {
+.card-5__info {
     height: 42px;
     font-family: HelveticaNeue;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: -0.4px;
 }
-.card-4__icons img {
+.card-5__icons img {
     height: 15px;
 }
-.card-4__logo2 {
+.card-5__logo2 {
     height: 42px;
     width: 70px; 
     background: transparent url(../image/icons/azerbaijzn/azerbaijzn@2x.png)  no-repeat;
@@ -509,29 +503,44 @@ button {
     line-height: 1.5;
     letter-spacing: -0.4px;
 }
+.grow_1 {
+  flex-grow: 10;
+}
+.grow {
+  flex-grow: 0;
+}
 .copyright {
     height: 75px;
-}
-.copyright__text {
-    /* height: 30px; */
 }
 .copyright__visa {
   height: 40px;
   width: 60px;
-  background: #999 url(../image/icons/visa.svg) no-repeat;
+  background: transparent url(../image/icons/visa.svg) no-repeat;
   background-size: contain;
 }
 .copyright__mastercard {
   height: 40px;
   width: 60px;
-  background: #999 url(../image/icons/master-card.svg) no-repeat;
+  background: transparent url(../image/icons/master-card.svg) no-repeat;
   background-size: contain;
 }
 .copyright__am-express {
   height: 40px;
   width: 60px;
-  background: #999 url(../image/icons/am-express.svg) no-repeat;
+  background: transparent url(../image/icons/am-express.svg) no-repeat;
   background-size: contain;
+}
+.card-4, .card-5 {
+  outline: 1px dotted #111;
+}
+
+.card-22 {
+  height: 470px;
+}
+.card-22-contairer {
+  height: 80%;
+  width: 80%;
+
 }
 
 
