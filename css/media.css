@@ -7,7 +7,7 @@
     }
    
 } 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
     .header,.content-box-2 {
         height: 500px;
     }
@@ -24,44 +24,17 @@
         height: 350px;
     }
 
-}
+}*/
 @media (min-width: 992px) {
     .header,.content-box-2 {
-        height: 600px;
+        height: 636px;
     }
     .tour__img {
         height: 380px;
-    }
+    } 
 
 }
 @media (min-width: 1200px) {
-    .header,.content-box-2 {
-        height: 650px;
-    }
-    .tour__img {
-        height: 400px;
-    }
-
-}
-@media (min-width: 1300px){
-    .header,.content-box-2 {
-        height: 700px;
-    }
-    .tour__img {
-        height: 440px;
-    }
-
-}
-@media (min-width: 1400px){
-    .header,.content-box-2 {
-        height: 750px;
-    }
-    .tour__img {
-        height: 480px;
-    }
-
-}
-@media (min-width: 1500px){
     .header,.content-box-2 {
         height: 770px;
     }
@@ -70,3 +43,30 @@
     }
 
 }
+/*@media (min-width: 1300px){
+    .header,.content-box-2 {
+        height: 700px;
+    }
+    .tour__img {
+        height: 440px;
+    }
+
+}
+ @media (min-width: 1400px){
+    .header,.content-box-2 {
+        height: 750px;
+    }
+    .tour__img {
+        height: 480px;
+    }
+
+} 
+@media (min-width: 1500px){
+    .header,.content-box-2 {
+        height: 770px;
+    }
+    .tour__img {
+        height: 500px;
+    }
+
+}*/

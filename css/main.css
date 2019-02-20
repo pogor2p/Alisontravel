@@ -255,12 +255,12 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
-    height: 350px;
+    height: 500px;
     
 }
 .tour__img, .tour__img:hover {
     text-decoration: none;
-    color: #fefefe;
+    color: #fff;
 }  
 /* ****** card ******* */
   
