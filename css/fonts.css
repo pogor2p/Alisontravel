@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Galano Grotesque DEMO Bold";
-    src: url("../fonts/Galano Grotesque DEMO Bold/Rene Bieder - Galano Grotesque DEMO Bold.otf");
+    font-family: "GalanoGrotesqueDEMOBold";
+    src: url("../fonts/GalanoGrotesqueDEMOBold/ReneBieder-GalanoGrotesqueDEMOBold.otf");
     font-style: normal;
     font-weight: normal;
 }
@@ -10,6 +10,16 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* 'Verdana','Source Sans Pro', 'sans-serif' */
+/* , 'Times New Roman' */
 /*  Arial (28%) и Verdana (8%) , нет в W7 Helvetica (20%).
 Arial (28%), Verdana (20%) Lucida console(W7), Lucida Grande (10%)*/
 /*Georgia (28%) . Georgia (32%)  Times New Roman и Baskerville (4%)*/
