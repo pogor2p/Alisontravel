@@ -55,7 +55,7 @@
        padding: 10px 0;
     }
     .tour__img {
-        height: 380px;
+        height: 265px;
     } 
 
 }
@@ -89,7 +89,7 @@
         line-height: 1rem;
     }    
     .tour__img {
-        height: 500px;
+        height: 320px;
     }
 }
 /*@media (min-width: 1300px){

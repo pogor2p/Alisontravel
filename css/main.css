@@ -27,7 +27,7 @@ button {
     right: 0;
     top: 0;
     left: 0;
-    padding: 10px 0;
+    padding-top: 10px;
     font-size: 13px;
     -webkit-transition: all .2s;
     transition: all .2s;
@@ -243,11 +243,20 @@ button {
 
 
 
- .text-headline {
+ /* .text-headline {
+  font-weight: bold;
     text-align: center;
     font-size: 50px;
-    color: #444;
+    color: #555;
+} */
+.text-headline h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #555;
 }
+
+
 /* .grid {
     border-radius: 5px;
     background-size: cover;
@@ -278,7 +287,11 @@ button {
     background-repeat: no-repeat;
     border-radius: 5px;
     height: 500px;
-    
+}
+.tour__img h4 {
+  font-family: 'GalanoGrotesqueDEMOBold';
+  font-size: 2rem;
+  text-shadow: -2px -2px 4px #444;
 }
 .tour__img, .tour__img:hover {
     text-decoration: none;
@@ -322,7 +335,7 @@ button {
   /* padding: 10px; */
 }
 .card-1__container {
-  padding: 10px;
+  padding: 25px;
 }
 .card-1__image {
   width: 100%;
@@ -330,16 +343,19 @@ button {
 }
 .card-1__title {
   margin-bottom: 4px;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #555;
 }
 .card-1__description {
-  font-size: 14px;
-
+  height: 23px;
+  font-size: 0.8rem;
+  color: #777;
 }
-.card-1__footer {
-  
+.card-1__description p img {
+  margin: 0 8px 3px 0;
+  height: 12px;
+  width: 12px;
 }
 .card-1__stars {
   white-space: nowrap;
@@ -347,7 +363,8 @@ button {
 .card-1__star {
   display: inline-block;
 }
-.card-1__star img{
+.card-1__star img {
+  margin-top: 14px;
   height: 20px;
   width: 20px;
 }
@@ -356,9 +373,9 @@ button {
 }
 .card-1__price-holder {
   margin-bottom: 4px;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  color: #555;
+  color: #222;
 }
   .card-1__price-currency {
     display: inline-block;
