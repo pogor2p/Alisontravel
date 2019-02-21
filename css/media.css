@@ -48,6 +48,7 @@
         height: 50px;
     }
     .dashboard__btns__btn span {
+        font-size: 1rem;
         line-height: 0.8rem;
     }
     .bott-nav ul li a {
@@ -84,6 +85,7 @@
         height: 55px;
     }
     .dashboard__btns__btn span {
+        font-size: 1.1rem;
         line-height: 1rem;
     }    
     .tour__img {
