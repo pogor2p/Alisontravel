@@ -426,44 +426,57 @@ button {
 .brd-top {
   border-top: 2px solid #eaeaea;
 }
-.card-5 {
+.card-4 {
   width: 23%;
   height: 300px;
+  font-family: 'HelveticaNeue';
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  color: #555;
+  margin-top: 50px;
 }
-.card-5__logo {
+.card-4__container {
+  padding: 0 0 0 20px;
+}
+.flex-grow-1 .card-4__container {
+  padding: 0 30px 0 0;
+}
+.card-4__logo {
   /*color #a21d6e */
     height: 65px;
     width: 85px; 
     background: transparent url(../image/icons/logo/logo-transparents2xred.png)  no-repeat;
     background-size: contain;
 }
-.card-5__info {
+.card-4__info {
     height: 42px;
-    font-family: HelveticaNeue;
+    font-family: 'HelveticaNeue';
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: -0.4px;
 }
-.card-5__icons img {
+.card-4__icons img {
     height: 15px;
 }
-.card-5__logo2 {
+.card-4__logo2 {
     height: 42px;
     width: 70px; 
     background: transparent url(../image/icons/azerbaijzn/azerbaijzn@2x.png)  no-repeat;
     background-size: contain;
 }
-.card-5__country {
+.card-4__country {
   margin-top: 20px;
   margin-bottom: 35px;
   height: 25px;
+  color: #444;
 }
-.card-5__country div {
-    font-family: HelveticaNeue;
+.card-4__country div {
+    font-family: 'HelveticaNeue';
     font-size: 18px;
     font-weight: 500;
 }
-.card-5__contacts::before {
+.card-4__contacts::before {
     content: "";
     height: 18px;
     width: 18px;
@@ -474,14 +487,14 @@ button {
     background: transparent url(../image/icons/phone.svg) no-repeat;
     background-size: contain;
 }
-.card-5__address__icon {
+.card-4__address__icon {
     height: 20px;
     width: 20px;
     margin-right: 10px;
     background: transparent url(../image/icons/location.svg)  no-repeat;
     background-size: contain;
 }
-.card-5__mail::before {
+.card-4__mail::before {
     content: "";
     height: 18px;
     width: 18px;
@@ -492,21 +505,12 @@ button {
     background: transparent url(../image/icons/mail.svg) no-repeat;
     background-size: contain;
 }
-.card-5 {
-    font-family: HelveticaNeue;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: -0.4px;
-}
-.grow_1 {
-  flex-grow: 10;
-}
-.grow {
-  flex-grow: 0;
-}
 .copyright {
     height: 75px;
 }
+.copyright__text {
+    color: #555;
+}  
 .copyright__visa {
   height: 40px;
   width: 60px;
@@ -524,9 +528,6 @@ button {
   width: 60px;
   background: transparent url(../image/icons/am-express.svg) no-repeat;
   background-size: contain;
-}
-.card-4, .card-5 {
-  outline: 1px dotted #111;
 }
 
 .card-22 {
