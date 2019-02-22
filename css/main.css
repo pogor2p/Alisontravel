@@ -239,44 +239,17 @@ button {
     border-right: none;
 }  
  /*  font-family: HelveticaNeue,'Source Sans Pro', sans-serif; */
-
-
-
-
- /* .text-headline {
-  font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-    color: #555;
-} */
-.text-headline h1 {
+  /* white-space: nowrap; */
+.headline h1 {
     font-weight: bold;
     text-align: center;
     font-size: 2.2rem;
     color: #555;
 }
-
-
-/* .grid {
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    background-color: #f9f9f9;
-    margin-bottom: 30px;
-    cursor: pointer;
-    transition: all .2s;
+.alison {
+  margin-top: 55px;
+  margin-bottom: 25px;
 }
-.s-box {
-    width: 550px;
-    background-color: green;
-}
-.color-grey {
-    width: 300px;
-    height: 300px;
-    background-color: #999;
-}
-*/
 .tour {
     margin: 15px 0;
 }
@@ -297,42 +270,14 @@ button {
     text-decoration: none;
     color: #fff;
 }  
-/* ****** card ******* */
-  
- /*  .cards-holder-3 {
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 800px;
-    padding: 20px;
-  }
-  .cards-holder-3 .card-1 {
-    display: inline-block;
-    margin: 10px;
-    vertical-align: top;
-  } */
-  /* @media(min-width: 600px) {
-    .cards-holder-3 .card-1 {
-      width: 380px;
-      height: 458px;
-    }
-  }
-  @media(min-width: 600px) and (max-width: 840px) {
-    .cards-holder-3 .card-1 {
-      width: calc(50% - 26px);
-    }
-  } */
+.most {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}  
 .card-1 {
   margin: 15px 0;
   background: #fff;
   border-radius: 5px;
-  /* border: y1px solid #777; */
-  /* box-sizing: border-box; */
-  /* width: 100%; */
-  /* margin: 10px; */
-  /* padding: 10px; */
 }
 .card-1__container {
   padding: 25px;
@@ -383,8 +328,11 @@ button {
   }
 .card-1__price-value {
   display: inline-block;
-  /* white-space: nowrap; */
 }
+.what {
+  margin-top: 45px;
+  margin-bottom: 28px;
+} 
 .card-2 {
   height: 440px;
   margin: 15px 0;
@@ -408,7 +356,10 @@ button {
 .card-2__title {
   padding-bottom: 20px;
 }
-
+.discover {
+  margin-top: 45px;
+  margin-bottom: 25px;
+} 
  .card-3 {
   height: 380px;
   margin: 15px 0;
@@ -465,14 +416,16 @@ button {
   background-image: linear-gradient(to right, #a21d6e, #e2245e);
   color: #fff;
 }
-.height_1 {
+.subscribe {
+  margin-top: 45px;
+  margin-bottom: 38px;
+} 
+.input-group__height {
   height: 46px; 
 }
-
 .brd-top {
   border-top: 2px solid #eaeaea;
 }
-
 .card-5 {
   width: 23%;
   height: 300px;
