@@ -67,12 +67,9 @@ button {
     /* -webkit-transition: all .2s ease-in-out;*/
     /* transition: all .2s ease-in-out; */
 }
-.top-nav__menu ul li:hover > a {
-    color: #e9457f;
-}
-.top-nav__menu ul li:hover > ul {
+/* .top-nav__menu ul li:hover > ul {
     display: block;
-}
+} */
 .top-nav__menu ul li {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -104,28 +101,26 @@ button {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     display: block;
 }
-
 .top-nav__menu ul ul ul {
     position: absolute;
     left: 100%;
     top: 0;
 }
 
-/* .underline-gradient:after {
+.underline-gradient:after {
+  display: block;
+  height: 4px;
+  width: 100%;
+  content: "";
   background: linear-gradient(to right, #fff0 0%, #ffff 50%, #fff0 100%);
-  background-size: 10% 100%;
+  background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  content: "";
   transition: background 200ms;
-  height: 4px;
-  display: block;
-  width: 100%;
 }
 .underline-gradient:hover:after, .underline-gradient:active:after, .underline-gradient:focus:after {
   background-size: 100% 50%;
-} */
-
+} 
 .mn-dropdown {
     text-align: left;
     position: relative;
@@ -193,19 +188,21 @@ button {
 .bott {
     height: 80px;
 }
-.bott-nav ul { 
+.bott__nav ul {
+    height: 60px; 
     list-style: none;
     position: relative;
     padding: 0;
     margin-top: 21px;
     border-bottom: 1px solid #fff;
   }
-.bott-nav ul li {
+.bott__nav ul li {
      display: block;
+     height: 100%;
     /* -webkit-transition: all .2s ease-in-out; */
     /* transition: all .2s ease-in-out; */
 } 
-.bott-nav ul li a {
+.bott__nav ul li a {
     display: block;
     padding: 20px 0;
     margin: 0 50px 0 0;
@@ -214,7 +211,25 @@ button {
     letter-spacing: 1px;
     text-decoration: none;
 }
-
+.underline-gradient-2:after {
+  display: block;
+  height: 5px;
+  width: 100%;
+  position: relative;
+  top: 12px;
+  content: "";
+  background: linear-gradient(to right, #fff 0%, #fff 50%, #fff 100%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  transition: background 200ms;
+}
+.underline-gradient-2:hover:after, .underline-gradient-2:active:after, .underline-gradient-2:focus:after {
+  background-size: 100% 50%;
+}
+.dashboard {
+    margin-top: 40px;
+}
 .dashboard__btns__btn {
     padding: 10px;
     margin: 0;
