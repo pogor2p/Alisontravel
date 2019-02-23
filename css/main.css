@@ -41,9 +41,6 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.outline-1 {
-    outline: 2px dotted #e9457f;
-}
 .logo-img {
     height: 65px;
     width: 85px; 
@@ -59,11 +56,9 @@ button {
     position: relative;
     padding: 0;
     margin: 0;
-    outline: 1px dotted #111;
 }
 .top-nav__menu ul li {
     display: block;
-    outline: 1px dotted #111;
     /* -webkit-transition: all .2s ease-in-out;*/
     /* transition: all .2s ease-in-out; */
 }
