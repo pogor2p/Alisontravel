@@ -244,6 +244,7 @@ button {
     font-weight: bold;
     text-align: center;
     font-size: 2.2rem;
+    letter-spacing: 0.08rem;
     color: #555;
 }
 .alison {
@@ -412,20 +413,94 @@ button {
 .card-3_blue:before {
   background: rgba(0, 0, 155, 0.8);
 }
-.input-group-text {
-  background-image: linear-gradient(to right, #a21d6e, #e2245e);
-  color: #fff;
-}
 .subscribe {
   margin-top: 45px;
   margin-bottom: 38px;
 } 
-.input-group__height {
-  height: 46px; 
-}
 .brd-top {
   border-top: 2px solid #eaeaea;
 }
+.input {
+  height: 40px;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input__envelope {
+  height: 40px;
+  width: 12%;
+} 
+.input__envelope__icon {
+  height: 100%;
+  width: 100%; 
+  background: #fff url(../image/icons/envelope_red.svg) 60% center no-repeat;
+  background-size: 22px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input__input {
+  height: inherit;
+  width: 65%;
+  border: none;
+  background-color: #fff;
+}
+.input__input:focus {
+  outline: none;
+}
+.input__btn {
+  height: inherit;
+  width: 23%;
+  text-align: center;
+  vertical-align: middle;
+  background-image: linear-gradient(to right, #a21d6e, #e2245e);
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+}
+.input__btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(162,29,110,.5);
+  box-shadow: 0 0 0 0.2rem rgba(226,36,94,.5);
+}
+
+
+/*  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  overflow: visible;
+*/ /*
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  font-family: 'HelveticaNeue';
+  -webkit-font-smoothing: antialiased;
+  margin-left: -1px;
+*/
+
+
+
 .card-4 {
   width: 23%;
   height: 300px;
@@ -486,6 +561,9 @@ button {
     display: inline-block;
     background: transparent url(../image/icons/phone.svg) no-repeat;
     background-size: contain;
+}
+.card-4__address {
+    min-height: 20px;
 }
 .card-4__address__icon {
     height: 20px;
